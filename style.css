@@ -1,54 +1,102 @@
-/*-webkit-appearance: none;*/
-html,body{
+html, body{
+    padding:0;
+    margin:0;
     height: 100%;
     
 }
-.navbar{
-    
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    padding: 10px;
-}
-.navbar .right{
-    float: right;
-    padding-right: 10px;
-    
-}
-.navbar .left{    
-    padding-right: 10px;
-}
 
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+ul{
+    margin:0;
+    padding:0;
+}
 li{
-    list-style: none;   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-
-body
-{   
-    display:grid;
-    place-items: center;
-    
+.top1
+{
+    top:0;
+    left:0;    
+    height: 50px;    
 }
-main{
-    height:max-content;
-    width: 100%;
+.top
+{
+  padding:5px;
+  
+}
+.left
+{
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+.right{
+    display: flex;
+    float: right;
+    justify-content:flex-end;
+}
+.list{
+  font-size: 18px;
+}
+.leftlist
+{
+  padding-right: 15px;    
+}
+.rightlist
+{
+  padding-left: 15px;    
 }
 .center
 {
-    display: grid;
-    width: auto;
-    place-items: center;   
+  display: grid;
+  place-items: center;
+  width: 100%;
+  margin-top: 200px;
 }
-#button1, #button1{
-    -webkit-appearance: none;
-    display: inline-block;
+.search-bar
+{
+  display:inline-block;
+}
+.bar
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    position:fixed;
-    bottom: 0;
-    left:0;
-    width: 100%;
-    
+
+
+
+
+
+
+.bottom
+{
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
 }
