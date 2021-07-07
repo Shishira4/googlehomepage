@@ -38,8 +38,7 @@ li{
 }
 .top
 {
-  padding:5px;
-  
+  padding:5px;  
 }
 .left
 {
@@ -57,11 +56,13 @@ li{
 }
 .leftlist
 {
-  padding-right: 15px;    
+  padding-right: 15px; 
+  padding-bottom: 0px;   
 }
 .rightlist
 {
-  padding-left: 15px;    
+  padding-left: 15px;
+  padding-bottom: 0px;     
 }
 .center
 {
@@ -89,14 +90,12 @@ li{
 
 
 
-
 .bottom
 {
-  
+  padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
   color: white;
 }
