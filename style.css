@@ -108,15 +108,18 @@ html, body{
 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
   justify-content: center;
-  align-items: center;
   padding: 1px;
   margin: 10px;
   width: 500px;
   border: 1px solid rgb(189, 184, 184);
   border-radius: 25px;
+}
+input
+{
+  height: 25px;
+  border: none;
+   
 }
 .bottom1
 {
